@@ -1,6 +1,6 @@
 # Interview-Prep
 
-Cloud & DevOps
+**Cloud & DevOps**
 
 a. Cloud is computing services such as servers, storage, databases, networking, software ...etc over the internet with pay-as-you-go pricing. DevOps brings development and operations together. It is a software engineering practice that involves collaboration within teams during development of operations to enable instantaneous deployment of products and services by utilizing a continuous integration and continuous delivery approach along with an agile and flexible development method.  
 
@@ -8,7 +8,7 @@ b. I have used cloud services when deploying applications and node-api connected
 
 c. Using cloud services allows users to be able to obtain computing services on a pay-as-you-go basis, which cuts costs of actually having to purchace and own servers or storage. Being able to only pay and use what you need depending on your current usage state.  
 
-CICD
+**CICD**
 
 a. Continuous Integration and Continuous Delivery. This practice allows for automation in building, testing, and deployment of applications. 
 
@@ -16,7 +16,7 @@ b. Created a Jenkins Pipeline to integrate node-api project with testing and con
 
 c. Errors and security issues can be identified and fixed earlier throughout the development cycle and much more easily. Improves productivity and efficiency by streamlining workflow through built-in automation, testing, and collaborattion. 
 
-Jenkins
+**Jenkins**
 
 a. Open Source automation server. It helps automate parts of software development related to building, testing, and deploying. 
 
@@ -24,7 +24,7 @@ b. Used Jenkins Pipeline to automate testing and the build of applications using
 
 c. Allows for constant monitoring and instantaneous notifications of errors in development cycle. 
 
-Provisioning
+**Provisioning**
 
 a. Process of setting up and configuring infrastructure and integration. 
 
