@@ -10,11 +10,11 @@ c. Using cloud services allows users to be able to obtain computing services on 
 
 CICD
 
-a. Continuous Integration and Continuous Delivery. This practice allows for automatin in building, testing, and deployment of applications. 
+a. Continuous Integration and Continuous Delivery. This practice allows for automation in building, testing, and deployment of applications. 
 
 b. Created a Jenkins Pipeline to integrate node-api project with testing and connected with webhooks through github repository to be able to trigger testing on my codebase when a push to main branch is done.  
 
-c. Errors and secrutiy issues can be identified and fixed earlier throughout the development cycle and much more easily. Improves productivity and efficiency by streamlining workflow through built-in automation, testing, and collaborattion. 
+c. Errors and security issues can be identified and fixed earlier throughout the development cycle and much more easily. Improves productivity and efficiency by streamlining workflow through built-in automation, testing, and collaborattion. 
 
 Jenkins
 
@@ -28,6 +28,7 @@ Provisioning
 
 a. Process of setting up and configuring infrastructure and integration. 
 
-b. Eplanation of what you have created with that tool / concept
+b. Used provisioning scripts when setting up VagrantFile for vagrant environment to automate commands for integration and connection of application to virtual machine.
+Used Terraform (IaC) to provision Infrastructure and configuration of an AWS instance using AMI id's created by packer. 
 
-c. Detail of benefit using the tool / concept
+c. Manage and automate the infrastructure components allow efficiency and reduction of human error during development and deployment of applications.
