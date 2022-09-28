@@ -35,9 +35,9 @@ c. Manage and automate the infrastructure components allow efficiency and reduct
 
 **Networking**
 
-a.
+a. Connecting computing devices to share and exchange data and resources. 
 
-b.
+b. Used networking when creating Vagrant environment by connecting a database ip to an api application to be able to send data from api functions. Used networking when configuring terraform AWS instances by 
 
 c.
 
