@@ -51,11 +51,11 @@ c. Reduced malware, enhances operational performance, and reduces the impact of 
 
 **IAC**
 
-a.
+a. Infrastructure as Code. It is the managing and provisioning of infrastructure using configuration files to establish a template for development through code. 
 
-b.
+b. We used IAC in terraform to manage our application and api database build onto an AWS instance by setting up and configuring our files integration. 
 
-c.
+c. 
 
 **Packer and Terraform**
 
