@@ -6,7 +6,7 @@ a. Cloud is computing services such as servers, storage, databases, networking, 
 
 b. I have used cloud services when deploying applications and node-api connected with databases from my local environment to an EC2 instance on AWS. I have been learning and using DevOps during the last 6 weeks of the training program within our project utilizing the tools such as trello, packer, terraform, jenkins, and testing during the development cycle of operations for our project.  
 
-c. Using cloud services allows users to be able to obtain computing services on a pay-as-you-go basis, which cuts costs of actually having to purchace and own servers or storage. Being able to only pay and use what you need depending on your current usage state.  
+c. Using cloud services allows users to be able to obtain computing services on a pay-as-you-go basis, which cuts costs of actually having to purchace and own servers or storage. Being able to only pay and use what you need depending on your current usage state. DevOps allows integration of development and operations teams for consistancy and realiability during the development cyle utilizing the tools and practices to respond to frequent changes.
 
 **CICD**
 
@@ -32,3 +32,35 @@ b. Used provisioning scripts when setting up VagrantFile for vagrant environment
 Used Terraform (IaC) to provision Infrastructure and configuration of an AWS instance using AMI id's created by packer. 
 
 c. Manage and automate the infrastructure components allow efficiency and reduction of human error during development and deployment of applications.
+
+**Networking**
+
+a.
+
+b.
+
+c.
+
+**Principle of Least Priviledge**
+
+a.
+
+b.
+
+c.
+
+**IAC**
+
+a.
+
+b.
+
+c.
+
+**Packer and Terraform**
+
+a.
+
+b.
+
+c.
