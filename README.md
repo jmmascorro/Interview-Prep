@@ -43,11 +43,11 @@ c. Benefits of compute networking are convenient resource sharing, setting secur
 
 **Principle of Least Priviledge**
 
-a.
+a. Information security concept that that gives minimum levels of access or permissions to users to perform their duties/tasks or job. 
 
-b.
+b. Coaches used Principle of Least Priviledge during our training of AWS resources. Permissions and limited access were set to our accounts to protect against "rookie mistakes" when working with AWS services. 
 
-c.
+c. Reduced malware, enhances operational performance, and reduces the impact of human error. It strikes a balance between usability and the implementation of security protections.
 
 **IAC**
 
