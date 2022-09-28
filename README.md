@@ -37,9 +37,9 @@ c. Manage and automate the infrastructure components allow efficiency and reduct
 
 a. Connecting computing devices to share and exchange data and resources. 
 
-b. Used networking when creating Vagrant environment by connecting a database ip to an api application to be able to send data from api functions. Used networking when configuring terraform AWS instances by 
+b. Used networking when creating Vagrant environment by connecting a database ip to an api application to be able to send data from api functions. Used networking when configuring terraform AWS instances by setting up gateway ip, VPN and subnetting for inbound and outbound connections. 
 
-c.
+c. Benefits of compute networking are convenient resource sharing, setting security where neccessary, makes file sharing easier and faster, and creates a structured environment for communincation and security. 
 
 **Principle of Least Priviledge**
 
