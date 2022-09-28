@@ -53,14 +53,14 @@ c. Reduced malware, enhances operational performance, and reduces the impact of 
 
 a. Infrastructure as Code. It is the managing and provisioning of infrastructure using configuration files to establish a template for development through code. 
 
-b. We used IAC in terraform to manage our application and api database build onto an AWS instance by setting up and configuring our files integration. 
+b. We used IAC in terraform to manage our application and api database build onto an AWS instance by setting up and configuring our files for integration. 
 
-c. 
+c. IaC avoids manual configuration over periods of time and enforces consistent environment states through well-documented code. Infrastructure deployments with IaC are repeatable and prevent runtime issues caused by configuration drift, missing dependencies, and human error. 
 
 **Packer and Terraform**
 
-a.
+a.Packer is an Open Source VM image creation tool. Terraform is an IaC tool that lets you build, change, and configure infrastructure tasks.
 
-b.
+b. We used packer to configure a file to create an AMI image on AWS and that image was then used to be able to configure and provision our AWS EC2 instance using terraform by utilizing different resource blocks or plug-ins available. Following the documentation we were able to configure and create VPNs, subnets, route tables, gateway ips, and database connection to our application and build it all at once.
 
-c.
+c. Packer images allow you to launch completely provisioned and configured machines quickly and effectively. Terraform makes it possible to spin up an entire infrastructure architecture by simply running a script. It reduces error from manually having to provision your infrastructure and allows constant collaboration within easily linked configuration files. 
