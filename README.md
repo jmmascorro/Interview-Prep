@@ -73,7 +73,7 @@ b. We used packer to configure a file to create an AMI image on AWS and that ima
 
 c. Packer images allow you to launch completely provisioned and configured machines quickly and effectively. 
 
-Terraform**
+**Terraform**
 
 a. Terraform is an IaC tool that lets you build, change, and configure infrastructure tasks.
 
@@ -96,5 +96,15 @@ a. VPC stands for Amazon Virtual Private Cloud. It allows developers to create a
 b. We created an Amazon VPC using terraform to be able to configure our packer.json files to be able to create our AMI's for our applications. We were then able to use our AMI's and VPC's to configure and create our subnets, gateways, and route tables for our database and application module-tiers in our terraform files for our EC2 instances.
 
 c. Amazon VPC gives you the ability to have full control over your virtual environment, including resources, connectivity, and security. You can instantly scale your resources up or down and allow for easly integration into your applications.
+
+**Vagrant** 
+
+a. Vagrant is a tool used for building and managing virtual machine environments in a single workflow. 
+
+b. We used Vagrant to set up virtual environments for our applications to run on. Using shell scripting and VagrantFile configuration, we were able to create a Nodejs and mysql database environment on two seperate VM's. We used Bash scripts to provsion the environment through Vagrant. 
+
+c. Vagrant helps automate the creation and mangement of Virtual Machines. It allows developers to set upo their environment quickly with only one command and is exactly the same as everyone else's by launching exact copies of the same machine in a repeatable and version controlled way.
+
+
 
 
