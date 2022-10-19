@@ -1,12 +1,20 @@
 # Interview-Prep
 
-**Cloud & DevOps**
+**Cloud** 
 
-a. Cloud is computing services such as servers, storage, databases, networking, software ...etc over the internet with pay-as-you-go pricing. DevOps brings development and operations together. It is a software engineering practice that involves collaboration within teams during development of operations to enable instantaneous deployment of products and services by utilizing a continuous integration and continuous delivery approach along with an agile and flexible development method.  
+a. Cloud is computing services such as servers, storage, databases, networking, software ...etc over the internet with pay-as-you-go pricing.   
 
-b. I have used cloud services when deploying applications and node-api connected with databases from my local environment to an EC2 instance on AWS. I have been learning and using DevOps during the last 6 weeks of the training program within our project utilizing the tools such as trello, packer, terraform, jenkins, and testing during the development cycle of operations for our project.  
+b. I have used cloud services when deploying applications and node-api connected with databases from my local environment to an EC2 instance on AWS. 
 
-c. Using cloud services allows users to be able to obtain computing services on a pay-as-you-go basis, which cuts costs of actually having to purchace and own servers or storage. Being able to only pay and use what you need depending on your current usage state. DevOps allows integration of development and operations teams for consistancy and realiability during the development cyle utilizing the tools and practices to respond to frequent changes.
+c. Using cloud services allows users to be able to obtain computing services on a pay-as-you-go basis, which cuts costs of actually having to purchace and own servers or storage. Being able to only pay and use what you need depending on your current usage state. 
+
+**DevOps**
+
+a. DevOps brings development and operations together. It is a software engineering practice that involves collaboration within teams during development of operations to enable instantaneous deployment of products and services by utilizing a continuous integration and continuous delivery approach along with an agile and flexible development method.
+
+b. I have been learning and using DevOps during the last 6 weeks of the training program within our project utilizing the tools such as trello, packer, terraform, jenkins, and testing during the development cycle of operations for our project.  
+
+c. DevOps allows integration of development and operations teams for consistancy and realiability during the development cyle utilizing the tools and practices to respond to frequent changes.
 
 **CICD**
 
@@ -57,13 +65,21 @@ b. We used IAC in terraform to manage our application and api database build ont
 
 c. IaC avoids manual configuration over periods of time and enforces consistent environment states through well-documented code. Infrastructure deployments with IaC are repeatable and prevent runtime issues caused by configuration drift, missing dependencies, and human error. 
 
-**Packer and Terraform**
+**Packer**
 
-a.Packer is an Open Source VM image creation tool. Terraform is an IaC tool that lets you build, change, and configure infrastructure tasks.
+a.Packer is an Open Source VM image creation tool. 
 
-b. We used packer to configure a file to create an AMI image on AWS and that image was then used to be able to configure and provision our AWS EC2 instance using terraform by utilizing different resource blocks or plug-ins available. Following the documentation we were able to configure and create VPNs, subnets, route tables, gateway ips, and database connection to our application and build it all at once.
+b. We used packer to configure a file to create an AMI image on AWS and that image was then used to be able to configure and provision our AWS EC2 instance using terraform by utilizing different resource blocks or plug-ins available.
 
-c. Packer images allow you to launch completely provisioned and configured machines quickly and effectively. Terraform makes it possible to spin up an entire infrastructure architecture by simply running a script. It reduces error from manually having to provision your infrastructure and allows constant collaboration within easily linked configuration files. 
+c. Packer images allow you to launch completely provisioned and configured machines quickly and effectively. 
+
+Terraform**
+
+a. Terraform is an IaC tool that lets you build, change, and configure infrastructure tasks.
+
+b. Following the documentation we were able to configure and create VPNs, subnets, route tables, gateway ips, and database connection to our application and build it all at once.
+
+c. Terraform makes it possible to spin up an entire infrastructure architecture by simply running a script. It reduces error from manually having to provision your infrastructure and allows constant collaboration within easily linked configuration files. 
 
 **AMI**
 
