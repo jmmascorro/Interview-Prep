@@ -105,6 +105,14 @@ b. We used Vagrant to set up virtual environments for our applications to run on
 
 c. Vagrant helps automate the creation and mangement of Virtual Machines. It allows developers to set upo their environment quickly with only one command and is exactly the same as everyone else's by launching exact copies of the same machine in a repeatable and version controlled way.
 
+**React**
+
+a. React is an open-source front-end Javascript library for building user interfaces based on UI components.
+
+b. We used react to help develop our front-end builds of our beer api application. We used it to handle our View layer of our application.
+
+c. Benefits of using React are that its DOM is declarative which the UI is adjusted when developers change the app's state when interacting with the DOM and the ability to build and reuse seperate components that make up a larger UI and creating more complex UI functions through simple HTML and Javascript components.
+
 
 
 
