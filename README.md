@@ -113,6 +113,14 @@ b. We used react to help develop our front-end builds of our beer api applicatio
 
 c. Benefits of using React are that its DOM is declarative which the UI is adjusted when developers change the app's state when interacting with the DOM and the ability to build and reuse seperate components that make up a larger UI and creating more complex UI functions through simple HTML and Javascript components.
 
+**DOM**
+
+a. DOM stands for Document Object Model. It is the data representation of the objects that comprise the structure and contents of a document on the web. It is the programming interface that allows us to create, change, or remove elements from the document. 
+
+b. We use javascript to work with and manipulate the DOM when we created our game application. We used Methods such as getElementByID() and querySelector() to access and reference our elements from our HTML index.html file to our js file. 
+
+c. By manipulating the DOM you can create applications that update the data of the page without needing refresh or are customizable by the user and can change the layout of a page instantly. 
+
 
 
 
