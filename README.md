@@ -73,4 +73,12 @@ b. We used AMI's in our terraform orchestration after we created the AMI's using
 
 c. Using AMI's gives you the ability to quickly and effectively determine what computing power, memory, storage, and other factors you need for your applications. It provides a template for configuration of your application that can be used to quickly and easily update and configure your application build.
 
+**VPC**
+
+a. VPC stands for Amazon Virtual Private Cloud. It allows developers to create a virtual network for resources in an isolated section of the Amazon Web Services cloud. Users connect to VPC's through an Internet Gateway and can define network configurations such as IP address range and route tables or manage gateways and subnets.
+
+b. We created an Amazon VPC using terraform to be able to configure our packer.json files to be able to create our AMI's for our applications. We were then able to use our AMI's and VPC's to configure and create our subnets, gateways, and route tables for our database and application module-tiers in our terraform files for our EC2 instances.
+
+c. Amazon VPC gives you the ability to have full control over your virtual environment, including resources, connectivity, and security. You can instantly scale your resources up or down and allow for easly integration into your applications.
+
 
