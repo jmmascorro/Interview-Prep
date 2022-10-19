@@ -64,3 +64,9 @@ a.Packer is an Open Source VM image creation tool. Terraform is an IaC tool that
 b. We used packer to configure a file to create an AMI image on AWS and that image was then used to be able to configure and provision our AWS EC2 instance using terraform by utilizing different resource blocks or plug-ins available. Following the documentation we were able to configure and create VPNs, subnets, route tables, gateway ips, and database connection to our application and build it all at once.
 
 c. Packer images allow you to launch completely provisioned and configured machines quickly and effectively. Terraform makes it possible to spin up an entire infrastructure architecture by simply running a script. It reduces error from manually having to provision your infrastructure and allows constant collaboration within easily linked configuration files. 
+
+**AMI**
+
+a. An AMI is an Amazon Machine Image. It is a template that contains a software configuration for an operating system, application server, or an application. Using and AMI you can launch an instance, which is a copy of the AMI running as a virtual server in the cloud. 
+
+b. We used AMI to spin up our AWS instances 
