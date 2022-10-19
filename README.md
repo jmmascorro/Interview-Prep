@@ -69,4 +69,8 @@ c. Packer images allow you to launch completely provisioned and configured machi
 
 a. An AMI is an Amazon Machine Image. It is a template that contains a software configuration for an operating system, application server, or an application. Using and AMI you can launch an instance, which is a copy of the AMI running as a virtual server in the cloud. 
 
-b. We used AMI to spin up our AWS instances 
+b. We used AMI's in our terraform orchestration after we created the AMI's using packer.json configuration file in our application. The AMI's take a snapshot or image of our application state we want for our build and then we can take that AMI and use it in configuring the terraform files for our EC2 instances for our three-tier application build using AWS.
+
+c. Using AMI's gives you the ability to quickly and effectively determine what computing power, memory, storage, and other factors you need for your applications. It provides a template for configuration of your application that can be used to quickly and easily update and configure your application build.
+
+
