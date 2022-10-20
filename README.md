@@ -121,6 +121,14 @@ b. We use javascript to work with and manipulate the DOM when we created our gam
 
 c. By manipulating the DOM you can create applications that update the data of the page without needing refresh or are customizable by the user and can change the layout of a page instantly. 
 
+**EC2**
+
+a. An Amazon EC2 instance is a virtual server in Amazon's Elastic Compute Cloud for running applications on the Amazon Web Services infrastructure.
+
+b. We used EC2 Instances to spin up our virtual environments for our applications from the AMI's that we created with packer and the Orchestration from terrafrom.
+
+c. Eliminates the need to invest in hardware up front, so you can develop and deploy your applications faster. You can use an EC2 to lauch as many virtual servers as you need, configure security and networking, and monage storage.
+
 
 
 
