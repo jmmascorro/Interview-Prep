@@ -129,6 +129,14 @@ b. We used EC2 Instances to spin up our virtual environments for our application
 
 c. Eliminates the need to invest in hardware up front, so you can develop and deploy your applications faster. You can use an EC2 to lauch as many virtual servers as you need, configure security and networking, and monage storage.
 
+**Docker**
+
+a. Docker is a software platfom that allows you to build, test, and deploy applications quickly based on self-sufficent containers that can run on the cloud or on-premises.
+
+b. We used Docker to containerize our application using DockerFile and DockerCompose to configure our applications.
+
+c. The benefits of docker include Scalability - many containers can be placed in a single host, flexible resource sharing, running your service on hardware that is much cheaper than standard servers, Portability across machines - you can deploy your containerized application to any other system that runs docker. 
+
 
 
 
